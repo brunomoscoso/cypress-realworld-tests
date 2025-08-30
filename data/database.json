@@ -162,6 +162,50 @@
       "balance": 0,
       "createdAt": "2025-08-30T09:46:47.329Z",
       "modifiedAt": "2025-08-30T09:46:47.329Z"
+    },
+    {
+      "id": "ItDS_TpEe",
+      "uuid": "82018ead-2e86-4933-87d9-c8babe9b4882",
+      "firstName": "25145",
+      "lastName": "Maria",
+      "username": "Manoela145",
+      "password": "$2a$10$sG2PMPqiXwoBvxvMJAD0nODvLU9wsKIuaoN3bH.GxVIwrpDFIWmMO",
+      "balance": 0,
+      "createdAt": "2025-08-30T09:59:54.552Z",
+      "modifiedAt": "2025-08-30T09:59:54.552Z"
+    },
+    {
+      "id": "2WCfQs1uh",
+      "uuid": "36682c95-3ead-47ec-ae8b-127a9be1ac81",
+      "firstName": "25145",
+      "lastName": "Maria",
+      "username": "Manoela145",
+      "password": "$2a$10$5i6CgsLkX8MJAmUMEtIEeuP0.XQA8wufs5Swgpj16zWXN1NU2H37i",
+      "balance": 0,
+      "createdAt": "2025-08-30T10:00:09.541Z",
+      "modifiedAt": "2025-08-30T10:00:09.541Z"
+    },
+    {
+      "id": "Prcoko4R8",
+      "uuid": "9bd24c2c-5073-4d0a-aa4d-e89013a5f5df",
+      "firstName": "25145",
+      "lastName": "Maria",
+      "username": "Manoela145",
+      "password": "$2a$10$w.DnhVexkssDyLILo9kHleiHjEd.aeoeJ74McJA9DLgG46kQwH21C",
+      "balance": 0,
+      "createdAt": "2025-08-30T10:00:49.568Z",
+      "modifiedAt": "2025-08-30T10:00:49.568Z"
+    },
+    {
+      "id": "IOX7RtsAp",
+      "uuid": "931de5de-3533-4088-90a4-ad07e2b46a89",
+      "firstName": "@14Maria",
+      "lastName": "Maria",
+      "username": "Manoela145",
+      "password": "$2a$10$fA2JxjhaUfdxGaTJ7jFXGu/5zHPK3dOygm1HghbdTOWMzhLU04VdS",
+      "balance": 0,
+      "createdAt": "2025-08-30T10:01:20.093Z",
+      "modifiedAt": "2025-08-30T10:01:20.093Z"
     }
   ],
   "contacts": [

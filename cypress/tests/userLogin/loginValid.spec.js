@@ -1,4 +1,3 @@
-import { generateUserData } from '../../support/dataGenerator';
 
 describe('Successful new user login', () => {
     it('Should log in a new user with valid information', () => {
