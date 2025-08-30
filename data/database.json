@@ -74,6 +74,94 @@
       "balance": 49474,
       "createdAt": "2023-12-07T04:39:38.383Z",
       "modifiedAt": "2024-03-07T00:07:36.510Z"
+    },
+    {
+      "id": "TCtksNJVG",
+      "uuid": "d299d011-37d2-4252-bb11-8a35ad94c7a8",
+      "firstName": "Sage",
+      "lastName": "Smith",
+      "username": "Pink_Ortiz61",
+      "password": "$2a$10$mcWLjMnkP3CXTbcX96zbrencKfXfUUzOJC5RxkRcychmEDX/5cvyC",
+      "balance": 0,
+      "createdAt": "2025-08-30T09:19:05.903Z",
+      "modifiedAt": "2025-08-30T09:19:05.903Z"
+    },
+    {
+      "id": "XCYOVs0Hx",
+      "uuid": "badd59a0-4ff0-4bb6-b302-48cee07f3a3c",
+      "firstName": "bruno",
+      "lastName": "moscoso",
+      "username": "moscoso",
+      "password": "$2a$10$7g/Y4TfDsfWNEbRU3NZ1t.bHA4weiBr7WWrshIyHTtYWugy1H9YAi",
+      "balance": 0,
+      "createdAt": "2025-08-30T09:19:18.521Z",
+      "modifiedAt": "2025-08-30T09:19:18.521Z"
+    },
+    {
+      "id": "LvXrcVmFH",
+      "uuid": "3764405c-f123-4111-bacf-9db5cfd0d5e3",
+      "firstName": "Tessie",
+      "lastName": "Schimmel",
+      "username": "Ephraim_Lowe",
+      "password": "$2a$10$/1nxFI9JfyVLnxt3TBs/feNoq/8ilc0pzOZg7fV/EOD1eg85xEqCy",
+      "balance": 0,
+      "createdAt": "2025-08-30T09:19:28.208Z",
+      "modifiedAt": "2025-08-30T09:19:28.208Z"
+    },
+    {
+      "id": "2cTxI2Et-",
+      "uuid": "5c20aca9-87ff-48a5-9a31-b1464ebf0ead",
+      "firstName": "Brendan",
+      "lastName": "Kessler",
+      "username": "Luis.Kunze13",
+      "password": "$2a$10$Vj3AQ3ZcjgHZmnfA00M3SOcEU0LKRuvyMjPVOz7ynzS8a82MuEbw6",
+      "balance": 0,
+      "createdAt": "2025-08-30T09:20:59.389Z",
+      "modifiedAt": "2025-08-30T09:20:59.389Z"
+    },
+    {
+      "id": "bzhdmbXMV",
+      "uuid": "9c14af7d-29de-453e-8f5b-c93bcd28eb29",
+      "firstName": "Fidel",
+      "lastName": "Willms",
+      "username": "Alexanne.Schroeder-Bernier24",
+      "password": "$2a$10$FL/Z6eu41sTBDRQjoGx3/ujmTdFF30IQ5Kt4f4AoPPnQdjTHe0rIy",
+      "balance": 0,
+      "createdAt": "2025-08-30T09:21:13.509Z",
+      "modifiedAt": "2025-08-30T09:21:13.509Z"
+    },
+    {
+      "id": "BuGSF2prG",
+      "uuid": "98cfc437-03e7-43ac-b8d5-1687220281ae",
+      "firstName": "Rebekah",
+      "lastName": "Reinger",
+      "username": "Brooklyn_Hilpert29",
+      "password": "$2a$10$yqNAlszwj5VrMF/teL.ZSOIEawQPbgqKu0WLVXzU4ggUK4qR5F6U6",
+      "balance": 0,
+      "createdAt": "2025-08-30T09:21:33.433Z",
+      "modifiedAt": "2025-08-30T09:21:33.433Z"
+    },
+    {
+      "id": "qda_flbaS",
+      "uuid": "a9f806cf-b17e-45b3-bdf7-ee021ebeb0b0",
+      "firstName": "Marquise",
+      "lastName": "Purdy",
+      "username": "Regan.Fritsch89",
+      "password": "$2a$10$gCh1P5RE8CqFiieDGIbdMeybm.AN4.MvkGzf8VfVEunxtS9.fnVR2",
+      "balance": 0,
+      "createdAt": "2025-08-30T09:46:12.418Z",
+      "modifiedAt": "2025-08-30T09:46:12.418Z"
+    },
+    {
+      "id": "rVsgOYhez",
+      "uuid": "a4d95766-8886-467b-9126-cfaba46b7243",
+      "firstName": "Gudrun",
+      "lastName": "Ondricka",
+      "username": "Norval33",
+      "password": "$2a$10$fvASrOX0Y7l88wtFCgKw/OzSP9BjGTPBSy6Qps1oXZsK9JZ5I/B5C",
+      "balance": 0,
+      "createdAt": "2025-08-30T09:46:47.329Z",
+      "modifiedAt": "2025-08-30T09:46:47.329Z"
     }
   ],
   "contacts": [
