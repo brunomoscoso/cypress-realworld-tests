@@ -1,4 +1,4 @@
-Cypress.Commands.add('loginUI', (userName, password) => {
+Cypress.Commands.add('login', (userName, password) => {
     cy.visit('http://localhost:3000/signin')
     cy.get('[data-test="signin-username"]').type(userName)
     cy.get('[data-test="signin-password"]').type(password)
