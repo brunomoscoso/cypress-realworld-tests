@@ -6,7 +6,11 @@ describe('Successful new user login', () => {
         cy.contains('Get Started with Real World App').should('be.visible');
     });
     });
-        it('Login should fail with an empty username.', () => {
+    
+});
+
+describe('Test login functionality with invalid credentials', () => {
+    it('Login should fail with an empty username.', () => {
         cy.visit('http://localhost:3000/signin');
         cy.get('[data-test="signin-password"]').type("1245");
         cy.contains('Username is required').should('be.visible');

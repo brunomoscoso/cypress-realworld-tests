@@ -15,6 +15,9 @@ describe('Successful new user registration', () => {
         cy.get('[data-test="signup-submit"]').click();
         cy.url().should('eq', 'http://localhost:3000/signin')
     });
+});
+
+describe('Test user registration with incomplete data', () => {
         it('Should not register a new user with an invalid password.', () => {
         cy.visit('http://localhost:3000/signup');
         cy.get('[name="firstName"]').type("Maria");
