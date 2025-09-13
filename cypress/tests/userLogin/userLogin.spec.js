@@ -1,3 +1,6 @@
+import UserLogin from "../../pages/userLogin";
+
+const userLogin = new UserLogin();
 
 describe('Successful new user login', () => {
     it('Should log in a new user with valid information', () => {
@@ -11,16 +14,13 @@ describe('Successful new user login', () => {
 
 describe('Test login functionality with invalid credentials', () => {
     it('Login should fail with an empty username.', () => {
-        cy.visit('http://localhost:3000/signin');
-        cy.get('[data-test="signin-password"]').type("1245");
+        userLogin.acesLoginPage();
+        userLogin.loginEmptyUsername('1234')
         cy.contains('Username is required').should('be.visible');
     });
     it('Login should fail with an invalid password or an invalid username', () => {
-        cy.visit('http://localhost:3000/signin');
-        cy.get('[data-test="signin-username"]').type("Maria");
-        cy.get('[data-test="signin-password"]').type("1258");
-        cy.get('[data-test="signin-remember-me"]').click();
-        cy.get('[data-test="signin-submit"]').click();
+        userLogin.acesLoginPage();
+        userLogin.loginInvalidCredentials('Maria', '1225');
         cy.contains('Username or password is invalid').should('be.visible');
     });
 });

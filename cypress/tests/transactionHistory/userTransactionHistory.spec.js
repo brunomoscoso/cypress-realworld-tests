@@ -1,3 +1,6 @@
+import TransactionHistoryPage from "../../pages/userTransaction";   
+
+const transactionHistoryPage = new TransactionHistoryPage();
 
 describe('Successfully view transaction history', () => {
     before('It should display a users transaction history correctly', () => {
@@ -6,10 +9,7 @@ describe('Successfully view transaction history', () => {
         });
     });    
     it('should navigate to transaction history page', () => {
-        cy.get('[data-test="nav-personal-tab"]').click();
-        cy.get('.MuiListItem-alignItemsFlexStart')
-        .should('have.length.greaterThan', 0)
-        .and('be.visible');
+        transactionHistoryPage.viewTransactionHistory();    
     });
 });
     
@@ -20,7 +20,7 @@ describe('Try to view the transaction history without previous transactions', ()
         });
     });  
     it('Should display a message indicating that the user has no previous transactions', () => {
-    cy.get('[data-test="nav-personal-tab"]').click();
+    transactionHistoryPage.viewWithoutTransactions();
     cy.contains('No Transactions').should('be.visible');
     });
 });
